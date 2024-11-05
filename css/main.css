@@ -1,0 +1,38 @@
+body {
+     
+    background-color: #0D0D0D;
+}
+.logo{
+    width: 60px;
+}
+.loading-screen{
+    z-index: 999;
+}
+
+.side-nav-menu{
+    transition: all .8s;
+}   
+ 
+
+li,.meal,i{
+    cursor: pointer;
+}
+.link-list li{
+    transition: all .8s;
+}
+
+.meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: all .5s;
+    
+}
+.meal:hover .meal-layer{
+    top: 0%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
